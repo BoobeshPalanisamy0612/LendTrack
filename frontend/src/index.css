@@ -1,0 +1,116 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-ledger-cream text-ledger-navy font-sans antialiased transition-colors duration-200;
+  }
+
+  body.dark {
+    @apply bg-ledger-dark text-ledger-cream;
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-display;
+  }
+
+  ::selection {
+    @apply bg-ledger-green/20;
+  }
+
+  /* Custom scrollbar - thin, ledger-toned */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: theme('colors.ledger.slate');
+    opacity: 0.4;
+    border-radius: 8px;
+  }
+
+  :focus-visible {
+    outline: 2px solid theme('colors.ledger.green');
+    outline-offset: 2px;
+  }
+}
+
+@layer components {
+  /* Signature element: the ledger tick divider used under section headers */
+  .ledger-divider {
+    @apply relative h-[2px] w-full mt-2 mb-6;
+    background-image: repeating-linear-gradient(
+      90deg,
+      currentColor 0,
+      currentColor 6px,
+      transparent 6px,
+      transparent 12px
+    );
+    color: theme('colors.ledger.line');
+    opacity: 0.9;
+  }
+
+  .dark .ledger-divider {
+    color: theme('colors.ledger.lineDark');
+  }
+
+  .card-surface {
+    @apply bg-white dark:bg-ledger-darkSurface border border-ledger-line dark:border-ledger-lineDark rounded-card shadow-card transition-colors;
+  }
+
+  .amount-mono {
+    @apply font-mono tabular-nums;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg bg-ledger-navy dark:bg-ledger-green px-4 py-2.5 text-sm font-medium text-white transition-all hover:opacity-90 active:scale-[0.98] disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg border border-ledger-line dark:border-ledger-lineDark bg-transparent px-4 py-2.5 text-sm font-medium text-ledger-navy dark:text-ledger-cream transition-all hover:bg-ledger-cream dark:hover:bg-ledger-darkSurface active:scale-[0.98] disabled:opacity-50;
+  }
+
+  .btn-danger {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg bg-red-600/90 px-4 py-2.5 text-sm font-medium text-white transition-all hover:bg-red-600 active:scale-[0.98];
+  }
+
+  .input-field {
+    @apply w-full rounded-lg border border-ledger-line dark:border-ledger-lineDark bg-white dark:bg-ledger-darkSurface px-3.5 py-2.5 text-sm text-ledger-navy dark:text-ledger-cream placeholder:text-ledger-slate focus:border-ledger-green focus:ring-1 focus:ring-ledger-green outline-none transition-colors;
+  }
+
+  .input-label {
+    @apply mb-1.5 block text-sm font-medium text-ledger-navy/80 dark:text-ledger-cream/80;
+  }
+
+  .input-error {
+    @apply mt-1 text-xs text-red-600 dark:text-red-400;
+  }
+
+  .badge {
+    @apply inline-flex items-center rounded-md px-2 py-0.5 text-xs font-medium;
+  }
+
+  .badge-success {
+    @apply bg-ledger-green/10 text-ledger-greenDark dark:bg-ledger-green/20 dark:text-ledger-green;
+  }
+
+  .badge-warning {
+    @apply bg-ledger-amber/10 text-ledger-amberDark dark:bg-ledger-amber/20 dark:text-ledger-amber;
+  }
+
+  .badge-danger {
+    @apply bg-red-500/10 text-red-700 dark:bg-red-500/20 dark:text-red-400;
+  }
+
+  .badge-neutral {
+    @apply bg-ledger-slate/10 text-ledger-slate;
+  }
+}
