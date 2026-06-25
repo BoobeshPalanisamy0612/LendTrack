@@ -10,7 +10,7 @@ export default defineConfig({
     port: 5173,
     proxy: {
       '/api': {
-        target: 'http://localhost:5000',
+        target: 'https://boobesh-lend-track.vercel.app',
         changeOrigin: true,
       },
     },
