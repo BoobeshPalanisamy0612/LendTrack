@@ -47,7 +47,6 @@ const allowedOrigins = process.env.CLIENT_URL
 app.use(
   cors({
     origin: (origin, callback) => {
-      // Allow requests with no origin (e.g. mobile apps, curl, Postman)
       if (!origin || allowedOrigins.includes(origin)) {
         callback(null, true);
       } else {
@@ -144,31 +143,27 @@ app.use(errorHandler);
 
 /* =========================
    START SERVER
+   Only when running locally — Vercel imports app directly
 ========================= */
-const PORT = process.env.PORT || 5000;
+if (process.env.NODE_ENV !== 'production') {
+  const PORT = process.env.PORT || 5000;
+  const server = app.listen(PORT, () => {
+    console.log(`LendTrack API running in development mode on port ${PORT}`);
+    startReminderJob();
+  });
 
-const server = app.listen(PORT, () => {
-  console.log(
-    `LendTrack API running in ${process.env.NODE_ENV || 'development'} mode on port ${PORT}`
-  );
-  startReminderJob();
-});
+  process.on('unhandledRejection', (err) => {
+    console.error(`Unhandled Rejection: ${err.message}`);
+    server.close(() => process.exit(1));
+  });
+
+  process.on('uncaughtException', (err) => {
+    console.error(`Uncaught Exception: ${err.message}`);
+    server.close(() => process.exit(1));
+  });
+}
 
 /* =========================
-   GLOBAL ERROR HANDLING
+   EXPORT FOR VERCEL
 ========================= */
-process.on('unhandledRejection', (err) => {
-  console.error(`Unhandled Rejection: ${err.message}`);
-  server.close(() => {
-    process.exit(1);
-  });
-});
-
-process.on('uncaughtException', (err) => {
-  console.error(`Uncaught Exception: ${err.message}`);
-  server.close(() => {
-    process.exit(1);
-  });
-});
-
 module.exports = app;

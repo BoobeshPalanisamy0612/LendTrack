@@ -1,10 +1,14 @@
 import axios from 'axios';
 import toast from 'react-hot-toast';
 
+// src/api/axios.js  (or similar)
+
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || 'http://localhost:5000/api',
-  headers: { 'Content-Type': 'application/json' },
+  baseURL: import.meta.env.VITE_API_URL,
+  withCredentials: true,
 });
+
+export default api;
 
 api.interceptors.request.use((config) => {
   const token = localStorage.getItem('lendtrack_token');
