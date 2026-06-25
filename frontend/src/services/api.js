@@ -1,15 +1,12 @@
 import axios from 'axios';
 import toast from 'react-hot-toast';
 
-// src/api/axios.js  (or similar)
-
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_URL,
+  baseURL: import.meta.env.VITE_API_URL || 'http://localhost:5000',
   withCredentials: true,
 });
 
-export default api;
-
+// ── Request interceptor ──────────────────────────────────────────────────────
 api.interceptors.request.use((config) => {
   const token = localStorage.getItem('lendtrack_token');
   if (token) {
@@ -18,13 +15,15 @@ api.interceptors.request.use((config) => {
   return config;
 });
 
+// ── Response interceptor ─────────────────────────────────────────────────────
 let isRedirecting = false;
 
 api.interceptors.response.use(
   (response) => response,
   (error) => {
     const status = error.response?.status;
-    const message = error.response?.data?.message || 'Something went wrong. Please try again.';
+    const message =
+      error.response?.data?.message || 'Something went wrong. Please try again.';
 
     if (status === 401 && !isRedirecting) {
       isRedirecting = true;
