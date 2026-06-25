@@ -21,7 +21,9 @@ const notificationRoutes = require('./routes/notificationRoutes');
 const familyRoutes = require('./routes/familyRoutes');
 const exportRoutes = require('./routes/exportRoutes');
 
-// Connect Database
+/* =========================
+   DATABASE
+========================= */
 connectDB();
 
 const app = express();
@@ -36,15 +38,22 @@ app.use(
 );
 
 /* =========================
-   CORS FIX (IMPORTANT)
+   CORS
 ========================= */
 const allowedOrigins = process.env.CLIENT_URL
-  ? process.env.CLIENT_URL.split(",")
-  : ["http://localhost:5173"];
+  ? process.env.CLIENT_URL.split(',').map((url) => url.trim())
+  : ['http://localhost:5173'];
 
 app.use(
   cors({
-    origin: allowedOrigins,
+    origin: (origin, callback) => {
+      // Allow requests with no origin (e.g. mobile apps, curl, Postman)
+      if (!origin || allowedOrigins.includes(origin)) {
+        callback(null, true);
+      } else {
+        callback(new Error(`CORS policy: origin ${origin} not allowed`));
+      }
+    },
     credentials: true,
   })
 );
@@ -71,6 +80,10 @@ const apiLimiter = rateLimit({
   max: 300,
   standardHeaders: true,
   legacyHeaders: false,
+  message: {
+    success: false,
+    message: 'Too many requests, please try again later',
+  },
 });
 
 app.use('/api', apiLimiter);
@@ -78,6 +91,8 @@ app.use('/api', apiLimiter);
 const authLimiter = rateLimit({
   windowMs: 15 * 60 * 1000,
   max: 20,
+  standardHeaders: true,
+  legacyHeaders: false,
   message: {
     success: false,
     message: 'Too many attempts, please try again later',
@@ -112,7 +127,7 @@ app.get('/api/health', (req, res) => {
   });
 });
 
-console.log('✅ Mounting auth routes...');
+console.log('✅ Mounting routes...');
 app.use('/api/auth', authRoutes);
 app.use('/api/loans', loanRoutes);
 app.use('/api/dashboard', dashboardRoutes);
@@ -136,7 +151,6 @@ const server = app.listen(PORT, () => {
   console.log(
     `LendTrack API running in ${process.env.NODE_ENV || 'development'} mode on port ${PORT}`
   );
-
   startReminderJob();
 });
 
@@ -145,7 +159,13 @@ const server = app.listen(PORT, () => {
 ========================= */
 process.on('unhandledRejection', (err) => {
   console.error(`Unhandled Rejection: ${err.message}`);
+  server.close(() => {
+    process.exit(1);
+  });
+});
 
+process.on('uncaughtException', (err) => {
+  console.error(`Uncaught Exception: ${err.message}`);
   server.close(() => {
     process.exit(1);
   });
