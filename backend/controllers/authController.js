@@ -9,6 +9,8 @@ const { resetPasswordTemplate } = require('../utils/emailTemplates');
 // @route   POST /api/auth/register
 // @access  Public
 const registerUser = asyncHandler(async (req, res) => {
+  console.log('REGISTER BODY:', req.body);
+
   const { name, email, password } = req.body;
 
   if (!name || !email || !password) {
@@ -16,13 +18,25 @@ const registerUser = asyncHandler(async (req, res) => {
     throw new Error('Please provide name, email and password');
   }
 
-  const existingUser = await User.findOne({ email: email.toLowerCase() });
+  const existingUser = await User.findOne({
+    email: email.toLowerCase(),
+  });
+
+  console.log('EXISTING USER:', !!existingUser);
+
   if (existingUser) {
     res.status(400);
     throw new Error('An account with this email already exists');
   }
 
-  const user = await User.create({ name, email, password });
+  const user = await User.create({
+    name,
+    email: email.toLowerCase(),
+    password,
+  });
+
+  console.log('USER SAVED:', user._id);
+  console.log('USER EMAIL:', user.email);
 
   res.status(201).json({
     success: true,
@@ -35,6 +49,8 @@ const registerUser = asyncHandler(async (req, res) => {
 // @route   POST /api/auth/login
 // @access  Public
 const loginUser = asyncHandler(async (req, res) => {
+  console.log('LOGIN BODY:', req.body);
+
   const { email, password } = req.body;
 
   if (!email || !password) {
@@ -42,14 +58,27 @@ const loginUser = asyncHandler(async (req, res) => {
     throw new Error('Please provide email and password');
   }
 
-  const user = await User.findOne({ email: email.toLowerCase() }).select('+password');
+  const user = await User.findOne({
+    email: email.toLowerCase(),
+  }).select('+password');
 
-  if (!user || !(await user.matchPassword(password))) {
+  console.log('USER FOUND:', !!user);
+
+  if (!user) {
     res.status(401);
     throw new Error('Invalid email or password');
   }
 
-  res.json({
+  const match = await user.matchPassword(password);
+
+  console.log('PASSWORD MATCH:', match);
+
+  if (!match) {
+    res.status(401);
+    throw new Error('Invalid email or password');
+  }
+
+  res.status(200).json({
     success: true,
     token: generateToken(user._id),
     user: user.toSafeObject(),

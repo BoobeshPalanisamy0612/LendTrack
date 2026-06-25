@@ -64,6 +64,11 @@ app.get('/api/health', (req, res) => {
   res.json({ success: true, message: 'LendTrack API is running', timestamp: new Date().toISOString() });
 });
 
+app.use((req, res, next) => {
+  console.log(`${req.method} ${req.originalUrl}`);
+  next();
+});
+
 app.use('/api/auth', authRoutes);
 app.use('/api/loans', loanRoutes);
 app.use('/api/dashboard', dashboardRoutes);
