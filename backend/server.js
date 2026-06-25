@@ -26,41 +26,46 @@ connectDB();
 
 const app = express();
 
-// Security Middleware
+/* =========================
+   SECURITY
+========================= */
 app.use(
   helmet({
     crossOriginResourcePolicy: false,
   })
 );
 
-// CORS Configuration
-// app.use(
-//   cors({
-//     origin: [
-//       "http://localhost:5173",
-//       "https://boobesh-lend-track.vercel.app",
-//     ],
-//     credentials: true,
-//   })
-// );
+/* =========================
+   CORS FIX (IMPORTANT)
+========================= */
+const allowedOrigins = process.env.CLIENT_URL
+  ? process.env.CLIENT_URL.split(",")
+  : ["http://localhost:5173"];
+
 app.use(
   cors({
-    origin: process.env.CLIENT_URL.split(","),
+    origin: allowedOrigins,
     credentials: true,
   })
 );
 
-// Body Parsers
+/* =========================
+   BODY PARSERS
+========================= */
 app.use(express.json({ limit: '10mb' }));
 app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 
-// Logging
+/* =========================
+   LOGGING
+========================= */
 if (process.env.NODE_ENV !== 'production') {
   app.use(morgan('dev'));
 }
 
-// Rate Limiter for API
+/* =========================
+   RATE LIMITING
+========================= */
 const apiLimiter = rateLimit({
   windowMs: 15 * 60 * 1000,
   max: 300,
@@ -70,7 +75,6 @@ const apiLimiter = rateLimit({
 
 app.use('/api', apiLimiter);
 
-// Auth Rate Limiter
 const authLimiter = rateLimit({
   windowMs: 15 * 60 * 1000,
   max: 20,
@@ -84,10 +88,14 @@ app.use('/api/auth/login', authLimiter);
 app.use('/api/auth/register', authLimiter);
 app.use('/api/auth/forgot-password', authLimiter);
 
-// Static Files
+/* =========================
+   STATIC FILES
+========================= */
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 
-// Root Route
+/* =========================
+   ROUTES
+========================= */
 app.get('/', (req, res) => {
   res.status(200).json({
     success: true,
@@ -96,7 +104,6 @@ app.get('/', (req, res) => {
   });
 });
 
-// Health Check Route
 app.get('/api/health', (req, res) => {
   res.status(200).json({
     success: true,
@@ -105,7 +112,6 @@ app.get('/api/health', (req, res) => {
   });
 });
 
-// API Routes
 console.log('✅ Mounting auth routes...');
 app.use('/api/auth', authRoutes);
 app.use('/api/loans', loanRoutes);
@@ -115,24 +121,28 @@ app.use('/api/notifications', notificationRoutes);
 app.use('/api/family', familyRoutes);
 app.use('/api/export', exportRoutes);
 
-// Error Handlers
+/* =========================
+   ERROR HANDLERS
+========================= */
 app.use(notFound);
 app.use(errorHandler);
 
-// Server
+/* =========================
+   START SERVER
+========================= */
 const PORT = process.env.PORT || 5000;
 
 const server = app.listen(PORT, () => {
   console.log(
-    `LendTrack API running in ${
-      process.env.NODE_ENV || 'development'
-    } mode on port ${PORT}`
+    `LendTrack API running in ${process.env.NODE_ENV || 'development'} mode on port ${PORT}`
   );
 
   startReminderJob();
 });
 
-// Handle Unhandled Promise Rejections
+/* =========================
+   GLOBAL ERROR HANDLING
+========================= */
 process.on('unhandledRejection', (err) => {
   console.error(`Unhandled Rejection: ${err.message}`);
 
