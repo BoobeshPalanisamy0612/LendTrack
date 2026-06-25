@@ -28,7 +28,10 @@ const app = express();
 app.use(helmet({ crossOriginResourcePolicy: false }));
 app.use(
   cors({
-    origin: process.env.CLIENT_URL || 'http://localhost:5173',
+    origin: [
+      "http://localhost:5173",
+      "https://boobesh-lend-track.vercel.app",
+    ],
     credentials: true,
   })
 );

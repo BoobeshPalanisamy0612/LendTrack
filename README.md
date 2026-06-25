@@ -61,7 +61,7 @@ cd backend
 cp .env.example .env
 # edit .env: set MONGO_URI, JWT_SECRET, JWT_RESET_SECRET, SMTP_* credentials
 npm install
-npm run dev          # starts on http://localhost:5000
+npm run dev          # starts on https://lendtrack-b97j.onrender.com/api
 ```
 
 To load demo data (one user + 5 sample loans):
@@ -74,9 +74,9 @@ npm run seed
 
 ```bash
 cd frontend
-cp .env.example .env   # VITE_API_URL=http://localhost:5000/api
+cp .env.example .env   # VITE_API_URL=https://lendtrack-b97j.onrender.com/api
 npm install
-npm run dev             # starts on http://localhost:5173
+npm run dev             # starts on http://localhost:5173, https://boobesh-lend-track.vercel.app
 ```
 
 The Vite dev server proxies `/api` and `/uploads` to the backend, so the `.env` value matters mainly for production builds.
