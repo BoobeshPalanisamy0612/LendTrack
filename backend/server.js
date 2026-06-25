@@ -34,9 +34,18 @@ app.use(
 );
 
 // CORS Configuration
+// app.use(
+//   cors({
+//     origin: [
+//       "http://localhost:5173",
+//       "https://boobesh-lend-track.vercel.app",
+//     ],
+//     credentials: true,
+//   })
+// );
 app.use(
   cors({
-    origin: process.env.CLIENT_URL || 'http://localhost:5173',
+    origin: process.env.CLIENT_URL.split(","),
     credentials: true,
   })
 );
