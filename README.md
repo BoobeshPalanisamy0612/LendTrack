@@ -1,34 +1,43 @@
 <div align="center">
 
-<img src="assets/banner.png" alt="LendTrack Banner" width="100%" />
+<img src="assets/banner.svg" alt="LendTrack Banner" width="100%" />
 
 <br/>
 
-<img src="assets/logo.png" alt="LendTrack Logo" width="100" />
+<img src="assets/logo.svg" alt="LendTrack Logo" width="88" />
 
 # 💰 LendTrack
 
-### Smart Loan & Borrow Management System
+**Smart Loan & Borrow Management System**
 
 *A modern full-stack MERN application that helps you effortlessly track money you've lent and borrowed — managing repayments, due dates, interest, and financial records through an intuitive, dashboard-first experience.*
 
 <br/>
 
-[![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=white)](https://react.dev/)
-[![Vite](https://img.shields.io/badge/Vite-7-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
-[![Node.js](https://img.shields.io/badge/Node.js-Express-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
-[![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://mongodb.com/)
-[![JWT](https://img.shields.io/badge/Auth-JWT-orange?style=for-the-badge&logo=jsonwebtokens&logoColor=white)](#-security-features)
-[![License](https://img.shields.io/badge/License-MIT-success?style=for-the-badge)](#-license)
-[![Responsive](https://img.shields.io/badge/Responsive-Yes-blue?style=for-the-badge)](#-user-interface-highlights)
-[![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)](#-project-highlights)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=for-the-badge)](#-contributing)
+<p>
+  <img alt="React" src="https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=white" />
+  <img alt="Vite" src="https://img.shields.io/badge/Vite-7-646CFF?style=for-the-badge&logo=vite&logoColor=white" />
+  <img alt="Node.js" src="https://img.shields.io/badge/Node.js-Express-339933?style=for-the-badge&logo=node.js&logoColor=white" />
+  <img alt="MongoDB" src="https://img.shields.io/badge/MongoDB-Atlas-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
+</p>
+<p>
+  <img alt="JWT" src="https://img.shields.io/badge/Auth-JWT-orange?style=for-the-badge&logo=jsonwebtokens&logoColor=white" />
+  <img alt="License" src="https://img.shields.io/badge/License-MIT-success?style=for-the-badge" />
+  <img alt="Responsive" src="https://img.shields.io/badge/Responsive-Yes-blue?style=for-the-badge" />
+  <img alt="Status" src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge" />
+  <img alt="PRs Welcome" src="https://img.shields.io/badge/PRs-welcome-brightgreen?style=for-the-badge" />
+</p>
 
 <br/>
 
 ### 🌐 [**Live Demo → boobesh-lend-track.vercel.app**](https://boobesh-lend-track.vercel.app/)
 
-[Live Demo](https://boobesh-lend-track.vercel.app/) · [Report Bug](../../issues) · [Request Feature](../../issues) · [Documentation](#-getting-started)
+<p>
+  <a href="https://boobesh-lend-track.vercel.app/"><b>Live Demo</b></a> ·
+  <a href="https://github.com/BoobeshPalanisamy0612/LendTrack/issues"><b>Report Bug</b></a> ·
+  <a href="https://github.com/BoobeshPalanisamy0612/LendTrack/issues"><b>Request Feature</b></a> ·
+  <a href="#-getting-started"><b>Documentation</b></a>
+</p>
 
 </div>
 
@@ -40,11 +49,38 @@
 
 ### 📸 Preview
 
-<img src="assets/dashboard.png" width="850"/>
+<img src="assets/dashboard.png" width="850" alt="LendTrack dashboard preview"/>
 
-*Replace this and other screenshots below after uploading real captures to `/assets`.*
+*Add real screenshots to `/assets` to replace this placeholder — see [Application Screens](#️-application-screens).*
 
 </div>
+
+<br/>
+
+---
+
+## 📑 Table of Contents
+
+- [About LendTrack](#-about-lendtrack)
+- [Why LendTrack?](#-why-lendtrack)
+- [Project Objectives](#-project-objectives)
+- [Core Features](#-core-features)
+- [UI Highlights](#-user-interface-highlights)
+- [Tech Stack](#-tech-stack)
+- [Project Structure](#-project-structure)
+- [Getting Started](#-getting-started)
+- [Environment Variables](#-environment-variables)
+- [Application Workflow](#-application-workflow)
+- [System Architecture](#️-system-architecture)
+- [REST API Overview](#-rest-api-overview)
+- [Database Collections](#-database-collections)
+- [Security Features](#-security-features)
+- [Design Principles](#-design-principles)
+- [Testing Checklist](#-testing-checklist)
+- [Roadmap](#️-development-roadmap)
+- [Contributing](#-contributing)
+- [License](#-license)
+- [Author](#-author)
 
 <br/>
 
@@ -725,7 +761,7 @@ Contributions are welcome and greatly appreciated! Here's how to get started:
    ```bash
    git push origin feature/AmazingFeature
    ```
-5. **Open a Pull Request**
+5. **Open a Pull Request** at [github.com/BoobeshPalanisamy0612/LendTrack/pulls](https://github.com/BoobeshPalanisamy0612/LendTrack/pulls)
 
 <details>
 <summary><strong>📋 Coding Guidelines</strong></summary>
@@ -747,8 +783,8 @@ Contributions are welcome and greatly appreciated! Here's how to get started:
 
 <br/>
 
-1. Search existing issues first
-2. Create a new issue with detailed steps to reproduce
+1. Search [existing issues](https://github.com/BoobeshPalanisamy0612/LendTrack/issues) first
+2. [Create a new issue](https://github.com/BoobeshPalanisamy0612/LendTrack/issues/new) with detailed steps to reproduce
 3. Include screenshots if applicable
 4. Describe expected vs. actual behavior
 5. Mention your browser and operating system
@@ -760,7 +796,7 @@ Contributions are welcome and greatly appreciated! Here's how to get started:
 
 <br/>
 
-Open a Feature Request issue including:
+[Open a Feature Request issue](https://github.com/BoobeshPalanisamy0612/LendTrack/issues/new) including:
 - Problem description
 - Proposed solution
 - Expected benefits
@@ -795,27 +831,27 @@ Please retain the original license notice when redistributing.
 
 <br/>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://boobeshpalanisamy0612.github.io/Portfolio/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](#)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/BoobeshPalanisamy0612)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](#)
+<p>
+  <a href="https://boobeshpalanisamy0612.github.io/Portfolio/"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white" /></a>
+  <a href="https://github.com/BoobeshPalanisamy0612"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" /></a>
+</p>
 
 </div>
 
 | Platform | Link |
 |---|---|
 | 🌍 Portfolio | https://boobeshpalanisamy0612.github.io/Portfolio/ |
-| 💼 LinkedIn | *Add your LinkedIn profile link* |
+| 💼 LinkedIn | *Add your LinkedIn profile URL here* |
 | 💻 GitHub | https://github.com/BoobeshPalanisamy0612 |
-| 📧 Email | *Add your email address* |
+| 📧 Email | *Add your contact email here* |
+
+> 💡 **Note:** The LinkedIn and Email badges above are left unlinked on purpose — plug in your real LinkedIn URL and email address (or a `mailto:` link) once ready, and they'll work like the Portfolio/GitHub badges.
 
 <br/>
 
 ---
 
 ## 🙏 Acknowledgements
-
-Special thanks to the technologies and communities that made this project possible:
 
 React · Vite · Node.js · Express.js · MongoDB Atlas · JWT · React Router · Axios · React Icons · Vercel · Render · GitHub · the Open Source Community
 
