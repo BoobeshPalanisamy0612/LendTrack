@@ -1,16 +1,25 @@
 <div align="center">
 
-<img src="assets/banner.svg" alt="LendTrack Banner" width="100%" />
+<img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTI4MCIgaGVpZ2h0PSI0MjAiIHZpZXdCb3g9IjAgMCAxMjgwIDQyMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8ZGVmcz4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYmciIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjMDUwNDBkIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iNDUlIiBzdG9wLWNvbG9yPSIjMjIxZDRkIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzBiMGExYSIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYWNjZW50IiB4MT0iMCUiIHkxPSIwJSIgeDI9IjEwMCUiIHkyPSIwJSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiMwMGQ0ZmYiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiM0YWRlODAiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjYTc4YmZhIi8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJjb2luIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjEwMCUiIHkyPSIxMDAlIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZTA4YSIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmNWE2MjMiLz4KICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICA8cmFkaWFsR3JhZGllbnQgaWQ9Imdsb3dHcmVlbiIgY3g9IjUwJSIgY3k9IjUwJSIgcj0iNTAlIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzRhZGU4MCIgc3RvcC1vcGFjaXR5PSIwLjMwIi8+CiAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzRhZGU4MCIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICA8L3JhZGlhbEdyYWRpZW50PgogICAgPHJhZGlhbEdyYWRpZW50IGlkPSJnbG93Qmx1ZSIgY3g9IjUwJSIgY3k9IjUwJSIgcj0iNTAlIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwZDRmZiIgc3RvcC1vcGFjaXR5PSIwLjI4Ii8+CiAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAwZDRmZiIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICA8L3JhZGlhbEdyYWRpZW50PgogICAgPHJhZGlhbEdyYWRpZW50IGlkPSJnbG93UHVycGxlIiBjeD0iNTAlIiBjeT0iNTAlIiByPSI1MCUiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjYTc4YmZhIiBzdG9wLW9wYWNpdHk9IjAuMjUiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjYTc4YmZhIiBzdG9wLW9wYWNpdHk9IjAiLz4KICAgIDwvcmFkaWFsR3JhZGllbnQ+CiAgPC9kZWZzPgoKICA8cmVjdCB3aWR0aD0iMTI4MCIgaGVpZ2h0PSI0MjAiIGZpbGw9InVybCgjYmcpIi8+CgogIDxjaXJjbGUgY3g9IjExMDAiIGN5PSI3MCIgcj0iMjAwIiBmaWxsPSJ1cmwoI2dsb3dHcmVlbikiLz4KICA8Y2lyY2xlIGN4PSIxMjAiIGN5PSIzNDAiIHI9IjE5MCIgZmlsbD0idXJsKCNnbG93Qmx1ZSkiLz4KICA8Y2lyY2xlIGN4PSI2NDAiIGN5PSI0MCIgcj0iMTYwIiBmaWxsPSJ1cmwoI2dsb3dQdXJwbGUpIi8+CgogIDxnIHN0cm9rZT0iI2ZmZmZmZiIgc3Ryb2tlLW9wYWNpdHk9IjAuMDQ1IiBzdHJva2Utd2lkdGg9IjEiPgogICAgPGxpbmUgeDE9IjAiIHkxPSI1MCIgeDI9IjEyODAiIHkyPSI1MCIvPgogICAgPGxpbmUgeDE9IjAiIHkxPSIxMDAiIHgyPSIxMjgwIiB5Mj0iMTAwIi8+CiAgICA8bGluZSB4MT0iMCIgeTE9IjM0MCIgeDI9IjEyODAiIHkyPSIzNDAiLz4KICAgIDxsaW5lIHgxPSIwIiB5MT0iMzgwIiB4Mj0iMTI4MCIgeTI9IjM4MCIvPgogIDwvZz4KCiAgPCEtLSB0b3AgcGlsbDogY2F0ZWdvcnkgdGFnIC0tPgogIDxyZWN0IHg9IjUzMCIgeT0iNDYiIHdpZHRoPSIyMjAiIGhlaWdodD0iMzQiIHJ4PSIxNyIgZmlsbD0iI2ZmZmZmZiIgZmlsbC1vcGFjaXR5PSIwLjA2IiBzdHJva2U9IiM0YWRlODAiIHN0cm9rZS1vcGFjaXR5PSIwLjUiLz4KICA8Y2lyY2xlIGN4PSI1NTIiIGN5PSI2MyIgcj0iNCIgZmlsbD0iIzRhZGU4MCIvPgogIDx0ZXh0IHg9IjU2NSIgeT0iNjgiIGZvbnQtZmFtaWx5PSJBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjE0IiBmb250LXdlaWdodD0iNjAwIiBmaWxsPSIjYzljOWU4Ij5GSU5URUNIIMK3IE9QRU4gU09VUkNFPC90ZXh0PgoKICA8IS0tIGRlY29yYXRpdmUgYmFyIGNoYXJ0LCByaWdodCAtLT4KICA8ZyBvcGFjaXR5PSIwLjkiPgogICAgPHJlY3QgeD0iMTAzMCIgeT0iMjcwIiB3aWR0aD0iMjQiIGhlaWdodD0iNTUiIHJ4PSI1IiBmaWxsPSJ1cmwoI2FjY2VudCkiIG9wYWNpdHk9IjAuNSIvPgogICAgPHJlY3QgeD0iMTA2NiIgeT0iMjQwIiB3aWR0aD0iMjQiIGhlaWdodD0iODUiIHJ4PSI1IiBmaWxsPSJ1cmwoI2FjY2VudCkiIG9wYWNpdHk9IjAuNjUiLz4KICAgIDxyZWN0IHg9IjExMDIiIHk9IjIwMCIgd2lkdGg9IjI0IiBoZWlnaHQ9IjEyNSIgcng9IjUiIGZpbGw9InVybCgjYWNjZW50KSIgb3BhY2l0eT0iMC44Ii8+CiAgICA8cmVjdCB4PSIxMTM4IiB5PSIxNjAiIHdpZHRoPSIyNCIgaGVpZ2h0PSIxNjUiIHJ4PSI1IiBmaWxsPSJ1cmwoI2FjY2VudCkiLz4KICA8L2c+CgogIDwhLS0gY29pbiBtb3RpZiwgbGVmdCAtLT4KICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMzAsMjU1KSI+CiAgICA8Y2lyY2xlIGN4PSIwIiBjeT0iMCIgcj0iNDQiIGZpbGw9InVybCgjY29pbikiLz4KICAgIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSI0NCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmZmZmIiBzdHJva2Utb3BhY2l0eT0iMC4zNSIgc3Ryb2tlLXdpZHRoPSIyIi8+CiAgICA8dGV4dCB4PSIwIiB5PSIxMyIgZm9udC1mYW1pbHk9IkFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNDAiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiM3YTRhMDAiIHRleHQtYW5jaG9yPSJtaWRkbGUiPiQ8L3RleHQ+CiAgPC9nPgogIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDIxMCwyMDUpIiBvcGFjaXR5PSIwLjg1Ij4KICAgIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyNiIgZmlsbD0idXJsKCNjb2luKSIvPgogICAgPHRleHQgeD0iMCIgeT0iOCIgZm9udC1mYW1pbHk9IkFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMjQiIGZvbnQtd2VpZ2h0PSI3MDAiIGZpbGw9IiM3YTRhMDAiIHRleHQtYW5jaG9yPSJtaWRkbGUiPiQ8L3RleHQ+CiAgPC9nPgoKICA8IS0tIHRpdGxlIC0tPgogIDx0ZXh0IHg9IjY0MCIgeT0iMjAwIiBmb250LWZhbWlseT0iQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSI4MCIgZm9udC13ZWlnaHQ9IjgwMCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgbGV0dGVyLXNwYWNpbmc9IjEiPgogICAgTGVuZDx0c3BhbiBmaWxsPSIjNGFkZTgwIj5UcmFjazwvdHNwYW4+CiAgPC90ZXh0PgoKICA8dGV4dCB4PSI2NDAiIHk9IjI0OCIgZm9udC1mYW1pbHk9IkFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMjMiIGZvbnQtd2VpZ2h0PSI0MDAiIGZpbGw9IiNjOWM5ZTgiIHRleHQtYW5jaG9yPSJtaWRkbGUiPgogICAgVGhlIG1vZGVybiB3YXkgdG8gbWFuYWdlIG1vbmV5IHlvdSBsZW5kIGFuZCBib3Jyb3cKICA8L3RleHQ+CgogIDxyZWN0IHg9IjUwMCIgeT0iMjcyIiB3aWR0aD0iMjgwIiBoZWlnaHQ9IjQiIHJ4PSIyIiBmaWxsPSJ1cmwoI2FjY2VudCkiLz4KCiAgPCEtLSBmZWF0dXJlIGNoaXBzIC0tPgogIDxnIGZvbnQtZmFtaWx5PSJBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjE0IiBmb250LXdlaWdodD0iNjAwIiBmaWxsPSIjZTVlN2ViIj4KICAgIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDM1MCwzMjApIj4KICAgICAgPHJlY3QgeD0iMCIgeT0iLTIwIiB3aWR0aD0iMTUwIiBoZWlnaHQ9IjM0IiByeD0iMTciIGZpbGw9IiNmZmZmZmYiIGZpbGwtb3BhY2l0eT0iMC4wNiIvPgogICAgICA8dGV4dCB4PSI3NSIgeT0iMiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+8J+UkCBKV1QgU2VjdXJlZDwvdGV4dD4KICAgIDwvZz4KICAgIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDUyMCwzMjApIj4KICAgICAgPHJlY3QgeD0iMCIgeT0iLTIwIiB3aWR0aD0iMTUwIiBoZWlnaHQ9IjM0IiByeD0iMTciIGZpbGw9IiNmZmZmZmYiIGZpbGwtb3BhY2l0eT0iMC4wNiIvPgogICAgICA8dGV4dCB4PSI3NSIgeT0iMiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+8J+TiiBMaXZlIERhc2hib2FyZDwvdGV4dD4KICAgIDwvZz4KICAgIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDY5MCwzMjApIj4KICAgICAgPHJlY3QgeD0iMCIgeT0iLTIwIiB3aWR0aD0iMTUwIiBoZWlnaHQ9IjM0IiByeD0iMTciIGZpbGw9IiNmZmZmZmYiIGZpbGwtb3BhY2l0eT0iMC4wNiIvPgogICAgICA8dGV4dCB4PSI3NSIgeT0iMiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+8J+nriBBdXRvIEludGVyZXN0PC90ZXh0PgogICAgPC9nPgogICAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoODYwLDMyMCkiPgogICAgICA8cmVjdCB4PSIwIiB5PSItMjAiIHdpZHRoPSIxNTAiIGhlaWdodD0iMzQiIHJ4PSIxNyIgZmlsbD0iI2ZmZmZmZiIgZmlsbC1vcGFjaXR5PSIwLjA2Ii8+CiAgICAgIDx0ZXh0IHg9Ijc1IiB5PSIyIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj7imqEgTUVSTiBTdGFjazwvdGV4dD4KICAgIDwvZz4KICA8L2c+Cjwvc3ZnPgo=" alt="LendTrack — Smart Loan & Borrow Management" width="100%" />
 
-<br/>
+<br/><br/>
 
-<img src="assets/logo.svg" alt="LendTrack Logo" width="88" />
+<img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQwIiBoZWlnaHQ9IjE0MCIgdmlld0JveD0iMCAwIDE0MCAxNDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPGRlZnM+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImxvZ29CZyIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiMyMjFkNGQiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMDUwNDBkIi8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJsb2dvQ29pbiIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiM0YWRlODAiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMDBkNGZmIi8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8cmVjdCB3aWR0aD0iMTQwIiBoZWlnaHQ9IjE0MCIgcng9IjMyIiBmaWxsPSJ1cmwoI2xvZ29CZykiLz4KICA8cmVjdCB4PSI0IiB5PSI0IiB3aWR0aD0iMTMyIiBoZWlnaHQ9IjEzMiIgcng9IjI4IiBmaWxsPSJub25lIiBzdHJva2U9IiNmZmZmZmYiIHN0cm9rZS1vcGFjaXR5PSIwLjA4IiBzdHJva2Utd2lkdGg9IjIiLz4KICA8Y2lyY2xlIGN4PSI3MCIgY3k9IjcwIiByPSI0MCIgZmlsbD0idXJsKCNsb2dvQ29pbikiLz4KICA8dGV4dCB4PSI3MCIgeT0iODUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ0IiBmb250LXdlaWdodD0iODAwIiBmaWxsPSIjMGIwYTFhIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj4kPC90ZXh0Pgo8L3N2Zz4K" alt="LendTrack Logo" width="96" />
 
-# 💰 LendTrack
+<h1>LendTrack</h1>
 
-**Smart Loan & Borrow Management System**
+<h3>💸 The modern way to manage money you lend and borrow</h3>
 
-*A modern full-stack MERN application that helps you effortlessly track money you've lent and borrowed — managing repayments, due dates, interest, and financial records through an intuitive, dashboard-first experience.*
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=2500&pause=800&color=4ADE80&center=true&vCenter=true&width=560&lines=Track+what+you+lend.;Track+what+you+borrow.;Never+miss+a+due+date+again.;Built+with+the+MERN+Stack." alt="Typing SVG" />
+
+<br/><br/>
+
+<p>
+  <a href="https://boobesh-lend-track.vercel.app/"><img alt="Live Demo" src="https://img.shields.io/badge/🚀_Live_Demo-4ADE80?style=for-the-badge&logoColor=white" /></a>
+  <a href="https://github.com/BoobeshPalanisamy0612/LendTrack"><img alt="GitHub Repo" src="https://img.shields.io/badge/⭐_GitHub_Repo-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+  <a href="https://github.com/BoobeshPalanisamy0612/LendTrack/issues/new"><img alt="Report Issue" src="https://img.shields.io/badge/🐞_Report_Issue-EF4444?style=for-the-badge" /></a>
+  <a href="https://github.com/BoobeshPalanisamy0612/LendTrack/issues/new"><img alt="Request Feature" src="https://img.shields.io/badge/✨_Request_Feature-8B5CF6?style=for-the-badge" /></a>
+</p>
 
 <br/>
 
@@ -21,23 +30,16 @@
   <img alt="MongoDB" src="https://img.shields.io/badge/MongoDB-Atlas-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
 </p>
 <p>
-  <img alt="JWT" src="https://img.shields.io/badge/Auth-JWT-orange?style=for-the-badge&logo=jsonwebtokens&logoColor=white" />
+  <img alt="JWT" src="https://img.shields.io/badge/Auth-JWT-black?style=for-the-badge&logo=jsonwebtokens&logoColor=white" />
   <img alt="License" src="https://img.shields.io/badge/License-MIT-success?style=for-the-badge" />
-  <img alt="Responsive" src="https://img.shields.io/badge/Responsive-Yes-blue?style=for-the-badge" />
-  <img alt="Status" src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge" />
   <img alt="PRs Welcome" src="https://img.shields.io/badge/PRs-welcome-brightgreen?style=for-the-badge" />
+  <img alt="Maintained" src="https://img.shields.io/badge/Maintained-Yes-4ADE80?style=for-the-badge" />
+  <img alt="Status" src="https://img.shields.io/badge/Status-Active-00D4FF?style=for-the-badge" />
 </p>
 
 <br/>
 
-### 🌐 [**Live Demo → boobesh-lend-track.vercel.app**](https://boobesh-lend-track.vercel.app/)
-
-<p>
-  <a href="https://boobesh-lend-track.vercel.app/"><b>Live Demo</b></a> ·
-  <a href="https://github.com/BoobeshPalanisamy0612/LendTrack/issues"><b>Report Bug</b></a> ·
-  <a href="https://github.com/BoobeshPalanisamy0612/LendTrack/issues"><b>Request Feature</b></a> ·
-  <a href="#-getting-started"><b>Documentation</b></a>
-</p>
+<sub>Built with ❤️ by <a href="https://github.com/BoobeshPalanisamy0612"><b>Boobesh Palanisamy</b></a> — full stack MERN developer</sub>
 
 </div>
 
@@ -46,132 +48,64 @@
 ---
 
 <div align="center">
-
-### 📸 Preview
-
-<img src="assets/dashboard.png" width="850" alt="LendTrack dashboard preview"/>
-
-*Add real screenshots to `/assets` to replace this placeholder — see [Application Screens](#️-application-screens).*
-
-</div>
-
-<br/>
-
----
 
 ## 📑 Table of Contents
 
-- [About LendTrack](#-about-lendtrack)
-- [Why LendTrack?](#-why-lendtrack)
-- [Project Objectives](#-project-objectives)
-- [Core Features](#-core-features)
-- [UI Highlights](#-user-interface-highlights)
-- [Tech Stack](#-tech-stack)
-- [Project Structure](#-project-structure)
-- [Getting Started](#-getting-started)
-- [Environment Variables](#-environment-variables)
-- [Application Workflow](#-application-workflow)
-- [System Architecture](#️-system-architecture)
-- [REST API Overview](#-rest-api-overview)
-- [Database Collections](#-database-collections)
-- [Security Features](#-security-features)
-- [Design Principles](#-design-principles)
-- [Testing Checklist](#-testing-checklist)
-- [Roadmap](#️-development-roadmap)
-- [Contributing](#-contributing)
-- [License](#-license)
-- [Author](#-author)
-
-<br/>
-
----
-
-## 📖 About LendTrack
-
-Managing money you've lent to friends, family, or colleagues can quickly become confusing. Notebooks, spreadsheets, and chat threads lead to missed repayments, forgotten due dates, and disorganized financial records.
-
-**LendTrack** is a modern full-stack web application built to simplify personal loan management. It gives you a secure, intuitive platform to record, monitor, and manage both lending and borrowing transactions in one place — with dashboards, interest calculation, family management, and due-date reminders built right in.
-
-<br/>
-
-## ✨ Why LendTrack?
-
-<div align="center">
-
-| | | |
-|:---:|:---:|:---:|
-| 💰 **Track money lent** | 🤝 **Record money borrowed** | 📅 **Never miss a due date** |
-| 📈 **Monitor financial summaries** | 🧮 **Calculate loan interest** | 👨‍👩‍👧 **Manage family-related loans** |
-| 🔔 **Get repayment reminders** | 📊 **View insightful statistics** | 🔐 **Keep financial data secure** |
-
 </div>
 
-<br/>
-
-## 🎯 Project Objectives
-
-| Objective | Goal |
-|---|---|
-| ✔️ Simplify loan management | Replace notebooks/spreadsheets with a single source of truth |
-| ✔️ Eliminate manual bookkeeping | Automate calculations and record-keeping |
-| ✔️ Improve repayment tracking | Surface due dates and overdue amounts clearly |
-| ✔️ Organize financial records | Group loans by contact, family, and status |
-| ✔️ Deliver real-time insights | Dashboard + reports reflect live data |
-| ✔️ Provide a modern UX | Clean, dashboard-first, mobile-ready interface |
-| ✔️ Ensure secure authentication | JWT-based auth with encrypted passwords |
-| ✔️ Support any device | Fully responsive across desktop, tablet, mobile |
-
-<br/>
-
----
-
-## 🚀 Core Features
-
-<div align="center">
-
-| Feature | Description |
-|:---:|---|
-| 🔐 **Authentication** | Secure user registration and login using JWT authentication |
-| 📊 **Dashboard** | Complete financial summaries and quick statistics at a glance |
-| 💸 **Loan Management** | Add, edit, update, and remove lending records |
-| 💳 **Borrow Tracking** | Record borrowed money and monitor repayments |
-| 🧮 **Interest Calculator** | Calculate interest and total payable amount |
-| 👨‍👩‍👧 **Family Management** | Manage loans associated with family members |
-| 🔔 **Notifications** | Track upcoming and overdue repayments |
-| 📈 **Reports** | Analyze financial activity through summary reports |
-| 📱 **Responsive Design** | Optimized experience across desktop, tablet & mobile |
-| ⚡ **Fast Performance** | Built with React + Vite for smooth interactions |
-
-</div>
-
-<br/>
-
----
-
-## 🎨 User Interface Highlights
-
-LendTrack combines modern fintech-inspired aesthetics with practical usability.
-
-<table>
+<table align="center">
 <tr>
-<td width="50%" valign="top">
+<td valign="top" width="33%">
 
-**Design Language**
-- ✨ Premium dashboard layout
-- 📊 Clean, card-based financial summaries
-- 🎯 Minimal, distraction-free interface
-- 🌈 Modern gradients & accents
-- 💎 Rounded, elevated components
+**Overview**
+- [About the Project](#-about-the-project)
+- [Why LendTrack](#-why-lendtrack)
+- [Features](#-features)
+- [Screenshots](#-screenshots)
 
 </td>
-<td width="50%" valign="top">
+<td valign="top" width="33%">
 
-**Interaction & Feel**
-- 📱 Mobile-first responsiveness
-- 🖥️ Professional sidebar navigation
-- 🎭 Smooth hover & focus effects
-- ⚡ Fast, fluid page transitions
-- 🎨 Consistent, purposeful color palette
+**Build & Run**
+- [Tech Stack](#-tech-stack)
+- [Folder Structure](#-folder-structure)
+- [Installation](#-installation)
+- [Environment Variables](#-environment-variables)
+
+</td>
+<td valign="top" width="33%">
+
+**Deep Dive**
+- [System Architecture](#-system-architecture)
+- [Application Workflow](#-application-workflow)
+- [REST API Overview](#-rest-api-overview)
+- [Database Collections](#-database-collections)
+
+</td>
+</tr>
+<tr>
+<td valign="top" width="33%">
+
+**Quality**
+- [Security Features](#-security-features)
+- [Performance Optimizations](#-performance-optimizations)
+- [Design Principles](#-design-principles)
+
+</td>
+<td valign="top" width="33%">
+
+**What's Next**
+- [Future Enhancements](#-future-enhancements)
+- [Roadmap](#-roadmap)
+- [Contributing](#-contributing)
+
+</td>
+<td valign="top" width="33%">
+
+**Wrap Up**
+- [Author](#-author)
+- [License](#-license)
+- [Support](#-support)
 
 </td>
 </tr>
@@ -181,7 +115,230 @@ LendTrack combines modern fintech-inspired aesthetics with practical usability.
 
 ---
 
-## 🛠 Tech Stack
+<div align="center">
+
+## 🧭 About the Project
+
+</div>
+
+<br/>
+
+**LendTrack** is a full-stack MERN application that replaces messy notebooks, spreadsheets, and chat threads with a single, secure source of truth for personal lending and borrowing.
+
+Whether you're splitting rent with roommates, tracking a loan to a family member, or managing informal credit as a freelancer, LendTrack gives you a clean dashboard to log transactions, calculate interest, follow due dates, and understand your financial position at a glance.
+
+<div align="center">
+
+| 🎯 Built For | 💡 Solves |
+|:---:|:---:|
+| Individuals, families, friends, freelancers, and small businesses | Forgotten repayments, scattered records, and manual interest math |
+
+</div>
+
+<br/>
+
+---
+
+<div align="center">
+
+## ⭐ Why LendTrack
+
+</div>
+
+<br/>
+
+<table align="center">
+<tr>
+<td width="50%" valign="top">
+
+### 🚫 The Old Way
+- Loans tracked in random notebooks
+- Interest calculated by hand
+- Due dates forgotten entirely
+- No visibility into who owes what
+- Records lost across chats and screenshots
+
+</td>
+<td width="50%" valign="top">
+
+### ✅ The LendTrack Way
+- Every transaction in one dashboard
+- Interest calculated automatically
+- Reminders before repayments are due
+- Real-time financial summaries
+- Secure, centralized, always accessible
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+---
+
+<div align="center">
+
+## 🚀 Features
+
+</div>
+
+<br/>
+
+<table align="center">
+<tr>
+<td width="33%" valign="top" align="center">
+
+### 🔐
+**Secure Authentication**
+<br/>
+JWT-based login & registration with encrypted, bcrypt-hashed passwords.
+
+</td>
+<td width="33%" valign="top" align="center">
+
+### 📊
+**Dashboard Analytics**
+<br/>
+Real-time snapshot of what you lend, owe, and expect to receive.
+
+</td>
+<td width="33%" valign="top" align="center">
+
+### 💸
+**Loan Management**
+<br/>
+Create, edit, and track every lending record with full history.
+
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top" align="center">
+
+### 💳
+**Borrow Tracking**
+<br/>
+Log money you've borrowed and monitor repayment progress.
+
+</td>
+<td width="33%" valign="top" align="center">
+
+### 🧮
+**Interest Calculator**
+<br/>
+Automatic interest and total payable computation, no manual math.
+
+</td>
+<td width="33%" valign="top" align="center">
+
+### 📈
+**Reports**
+<br/>
+Summary reports that turn raw transactions into clear insight.
+
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top" align="center">
+
+### 🔔
+**Smart Notifications**
+<br/>
+Stay ahead of upcoming and overdue repayments automatically.
+
+</td>
+<td width="33%" valign="top" align="center">
+
+### 👨‍👩‍👧
+**Family Management**
+<br/>
+Organize loans by the family members and contacts involved.
+
+</td>
+<td width="33%" valign="top" align="center">
+
+### 📱
+**Responsive UI**
+<br/>
+A polished experience across desktop, tablet, and mobile.
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+---
+
+<div align="center">
+
+## 🖼️ Screenshots
+
+*Preview images below — replace the placeholders in `/assets` with real captures once available.*
+
+<br/>
+
+<table>
+<tr>
+<td align="center" width="50%">
+<b>🏠 Home</b><br/>
+<img src="https://placehold.co/600x360/0b0a1a/4ade80?text=Home+Screen&font=roboto" width="100%"/>
+</td>
+<td align="center" width="50%">
+<b>🔐 Login</b><br/>
+<img src="https://placehold.co/600x360/0b0a1a/00d4ff?text=Login+Screen&font=roboto" width="100%"/>
+</td>
+</tr>
+<tr>
+<td align="center" width="50%">
+<b>📊 Dashboard</b><br/>
+<img src="https://placehold.co/600x360/0b0a1a/a78bfa?text=Dashboard&font=roboto" width="100%"/>
+</td>
+<td align="center" width="50%">
+<b>💸 Loan Management</b><br/>
+<img src="https://placehold.co/600x360/0b0a1a/4ade80?text=Loan+Management&font=roboto" width="100%"/>
+</td>
+</tr>
+<tr>
+<td align="center" width="50%">
+<b>💳 Borrow Management</b><br/>
+<img src="https://placehold.co/600x360/0b0a1a/00d4ff?text=Borrow+Management&font=roboto" width="100%"/>
+</td>
+<td align="center" width="50%">
+<b>🧮 Interest Calculator</b><br/>
+<img src="https://placehold.co/600x360/0b0a1a/a78bfa?text=Interest+Calculator&font=roboto" width="100%"/>
+</td>
+</tr>
+<tr>
+<td align="center" width="50%">
+<b>📈 Reports</b><br/>
+<img src="https://placehold.co/600x360/0b0a1a/4ade80?text=Reports&font=roboto" width="100%"/>
+</td>
+<td align="center" width="50%">
+<b>🔔 Notifications</b><br/>
+<img src="https://placehold.co/600x360/0b0a1a/00d4ff?text=Notifications&font=roboto" width="100%"/>
+</td>
+</tr>
+<tr>
+<td align="center" colspan="2">
+<b>👤 Profile</b><br/>
+<img src="https://placehold.co/1216x360/0b0a1a/a78bfa?text=Profile&font=roboto" width="100%"/>
+</td>
+</tr>
+</table>
+
+</div>
+
+<br/>
+
+---
+
+<div align="center">
+
+## 🛠️ Tech Stack
+
+</div>
+
+<br/>
 
 <div align="center">
 
@@ -210,51 +367,32 @@ LendTrack combines modern fintech-inspired aesthetics with practical usability.
 
 ![Vercel](https://img.shields.io/badge/Vercel-Frontend_Hosting-000000?style=for-the-badge&logo=vercel&logoColor=white)
 ![Render](https://img.shields.io/badge/Render-Backend_Hosting-46E3B7?style=for-the-badge&logo=render&logoColor=white)
-![MongoDB Atlas](https://img.shields.io/badge/MongoDB_Atlas-Database_Hosting-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 
 </div>
 
 <br/>
 
 <details>
-<summary><strong>📊 Tech Stack Breakdown by Layer</strong></summary>
+<summary><strong>📊 View detailed tech breakdown by layer</strong></summary>
 
 <br/>
 
-**Frontend**
-
-| Technology | Purpose |
-|---|---|
-| React.js | User Interface |
-| Vite | Build Tool |
-| React Router | Navigation |
-| Axios | API Communication |
-| CSS3 | Styling |
-| React Icons | Icons |
-
-**Backend**
-
-| Technology | Purpose |
-|---|---|
-| Node.js | Runtime |
-| Express.js | REST API |
-| JWT | Authentication |
-| bcrypt | Password Encryption |
-
-**Database**
-
-| Technology | Purpose |
-|---|---|
-| MongoDB Atlas | Cloud Database |
-| Mongoose | Database ODM |
-
-**Deployment**
-
-| Service | Purpose |
-|---|---|
-| Vercel | Frontend Hosting |
-| Render | Backend Hosting |
-| MongoDB Atlas | Database Hosting |
+| Layer | Technology | Purpose |
+|---|---|---|
+| Frontend | React.js | User Interface |
+| Frontend | Vite | Build Tool |
+| Frontend | React Router | Navigation |
+| Frontend | Axios | API Communication |
+| Frontend | CSS3 | Styling |
+| Frontend | React Icons | Icons |
+| Backend | Node.js | Runtime |
+| Backend | Express.js | REST API |
+| Backend | JWT | Authentication |
+| Backend | bcrypt | Password Encryption |
+| Database | MongoDB Atlas | Cloud Database |
+| Database | Mongoose | Database ODM |
+| Deployment | Vercel | Frontend Hosting |
+| Deployment | Render | Backend Hosting |
 
 </details>
 
@@ -262,14 +400,18 @@ LendTrack combines modern fintech-inspired aesthetics with practical usability.
 
 ---
 
-## 📂 Project Structure
+<div align="center">
 
-The project follows a scalable MERN architecture, separating the frontend and backend into independent applications.
+## 📂 Folder Structure
+
+</div>
+
+<br/>
 
 ```text
 LendTrack/
 │
-├── client/
+├── client/                  # React + Vite frontend
 │   ├── public/
 │   ├── src/
 │   │   ├── assets/
@@ -282,11 +424,10 @@ LendTrack/
 │   │   ├── utils/
 │   │   ├── App.jsx
 │   │   └── main.jsx
-│   │
 │   ├── package.json
 │   └── vite.config.js
 │
-├── server/
+├── server/                  # Node.js + Express backend
 │   ├── config/
 │   ├── controllers/
 │   ├── middleware/
@@ -304,79 +445,75 @@ LendTrack/
 
 ---
 
-## ⚙️ Prerequisites
+<div align="center">
 
-| Software | Version |
+## ⚙️ Installation
+
+</div>
+
+<br/>
+
+<details open>
+<summary><strong>📋 Prerequisites</strong></summary>
+
+<br/>
+
+| Requirement | Version |
 |---|---|
 | Node.js | v18+ |
 | npm | Latest |
 | Git | Latest |
 | MongoDB Atlas Account | Required |
-| VS Code | Recommended |
+
+</details>
 
 <br/>
 
----
-
-## 🚀 Getting Started
-
-### 1️⃣ Clone the Repository
+**1. Clone the repository**
 
 ```bash
 git clone https://github.com/BoobeshPalanisamy0612/LendTrack.git
 cd LendTrack
 ```
 
-### 2️⃣ Install Frontend Dependencies
+**2. Install frontend dependencies**
 
 ```bash
 cd client
 npm install
 ```
 
-### 3️⃣ Install Backend Dependencies
+**3. Install backend dependencies**
 
 ```bash
 cd ../server
 npm install
 ```
 
-### 4️⃣ Configure Environment Variables
+**4. Configure environment variables** — see [Environment Variables](#-environment-variables)
 
-See [Environment Variables](#-environment-variables) below.
-
-### 5️⃣ Run the Project
+**5. Run the project**
 
 <table>
 <tr>
-<td valign="top">
+<td valign="top" width="50%">
 
-**Start Backend**
-
+**Backend**
 ```bash
 cd server
 npm run dev
 ```
-
-Runs on:
-```text
-http://localhost:5000
-```
+→ `http://localhost:5000`
 
 </td>
-<td valign="top">
+<td valign="top" width="50%">
 
-**Start Frontend**
-
+**Frontend**
 ```bash
 cd client
 npm run dev
 ```
-
-Runs on:
-```text
-http://localhost:5173
-```
+→ `http://localhost:5173`
 
 </td>
 </tr>
@@ -386,10 +523,18 @@ http://localhost:5173
 
 ---
 
+<div align="center">
+
 ## 🔑 Environment Variables
 
+</div>
+
+<br/>
+
 <details>
-<summary><strong>📁 Frontend (.env)</strong></summary>
+<summary><strong>📁 Frontend — <code>client/.env</code></strong></summary>
+
+<br/>
 
 ```env
 VITE_API_URL=http://localhost:5000/api
@@ -398,27 +543,78 @@ VITE_API_URL=http://localhost:5000/api
 </details>
 
 <details>
-<summary><strong>📁 Backend (.env)</strong></summary>
+<summary><strong>📁 Backend — <code>server/.env</code></strong></summary>
+
+<br/>
 
 ```env
 PORT=5000
-
 MONGO_URI=your_mongodb_connection_string
-
 JWT_SECRET=your_secret_key
-
 CLIENT_URL=http://localhost:5173
 ```
 
 </details>
 
-> ⚠️ Never commit your `.env` file to GitHub.
+<br/>
+
+> ⚠️ **Never commit your `.env` file.** Keep secrets out of source control.
 
 <br/>
 
 ---
 
+<div align="center">
+
+## 🏗️ System Architecture
+
+</div>
+
+<br/>
+
+```mermaid
+flowchart TD
+    A[🖥️ Browser] --> B[⚛️ React + Vite Frontend]
+    B -->|Axios API Calls| C[🚂 Express.js REST API]
+    C --> D[🛡️ JWT Authentication Middleware]
+    D --> E[🗄️ MongoDB Atlas Database]
+    E --> D
+    D --> C
+    C -->|JSON Response| B
+```
+
+<br/>
+
+<details>
+<summary><strong>🔄 View detailed request lifecycle</strong></summary>
+
+<br/>
+
+```mermaid
+flowchart TD
+    A[User Action] --> B[React Component]
+    B --> C[Axios Request]
+    C --> D[Express Route]
+    D --> E[Controller]
+    E --> F[Database Model]
+    F --> G[MongoDB Atlas]
+    G --> H[JSON Response]
+    H --> I[React UI Update]
+```
+
+</details>
+
+<br/>
+
+---
+
+<div align="center">
+
 ## 🔄 Application Workflow
+
+</div>
+
+<br/>
 
 ```mermaid
 flowchart TD
@@ -441,41 +637,18 @@ flowchart TD
 
 ---
 
-## 🏗️ System Architecture
-
-```mermaid
-flowchart TD
-    A[🖥️ Browser] --> B[⚛️ React + Vite Frontend]
-    B -->|Axios API Calls| C[🚂 Express.js REST API]
-    C --> D[🛡️ JWT Authentication Middleware]
-    D --> E[🗄️ MongoDB Atlas Database]
-```
-
-<details>
-<summary><strong>🔄 Request Lifecycle (detailed)</strong></summary>
-
-```mermaid
-flowchart TD
-    A[User Action] --> B[React Component]
-    B --> C[Axios Request]
-    C --> D[Express Route]
-    D --> E[Controller]
-    E --> F[Database Model]
-    F --> G[MongoDB Atlas]
-    G --> H[JSON Response]
-    H --> I[React UI Update]
-```
-
-</details>
-
-<br/>
-
----
+<div align="center">
 
 ## 📡 REST API Overview
 
+</div>
+
+<br/>
+
 <details open>
 <summary><strong>🔐 Authentication</strong></summary>
+
+<br/>
 
 | Method | Endpoint | Description |
 |---|---|---|
@@ -488,6 +661,8 @@ flowchart TD
 <details>
 <summary><strong>📊 Dashboard</strong></summary>
 
+<br/>
+
 | Method | Endpoint | Description |
 |---|---|---|
 | `GET` | `/api/dashboard` | Dashboard summary |
@@ -496,6 +671,8 @@ flowchart TD
 
 <details>
 <summary><strong>💸 Loan Management</strong></summary>
+
+<br/>
 
 | Method | Endpoint | Description |
 |---|---|---|
@@ -509,6 +686,8 @@ flowchart TD
 <details>
 <summary><strong>💳 Borrow Management</strong></summary>
 
+<br/>
+
 | Method | Endpoint | Description |
 |---|---|---|
 | `GET` | `/api/borrow` | Get borrow records |
@@ -520,6 +699,8 @@ flowchart TD
 
 <details>
 <summary><strong>👨‍👩‍👧 Family Management</strong></summary>
+
+<br/>
 
 | Method | Endpoint | Description |
 |---|---|---|
@@ -533,6 +714,8 @@ flowchart TD
 <details>
 <summary><strong>🔔 Notifications & 📈 Reports</strong></summary>
 
+<br/>
+
 | Method | Endpoint | Description |
 |---|---|---|
 | `GET` | `/api/notifications` | View notifications |
@@ -544,13 +727,19 @@ flowchart TD
 
 ---
 
-## 🗄 Database Collections
+<div align="center">
 
-<table>
+## 🗄️ Database Collections
+
+</div>
+
+<br/>
+
+<table align="center">
 <tr>
 <td valign="top" width="25%">
 
-**Users**
+**👤 Users**
 - name
 - email
 - password
@@ -559,7 +748,7 @@ flowchart TD
 </td>
 <td valign="top" width="25%">
 
-**Loans**
+**💸 Loans**
 - lender
 - borrower
 - amount
@@ -571,7 +760,7 @@ flowchart TD
 </td>
 <td valign="top" width="25%">
 
-**Family**
+**👨‍👩‍👧 Family**
 - name
 - relationship
 - phone
@@ -580,7 +769,7 @@ flowchart TD
 </td>
 <td valign="top" width="25%">
 
-**Notifications**
+**🔔 Notifications**
 - title
 - message
 - read
@@ -594,7 +783,13 @@ flowchart TD
 
 ---
 
+<div align="center">
+
 ## 🔒 Security Features
+
+</div>
+
+<br/>
 
 | Measure | Description |
 |---|---|
@@ -602,88 +797,72 @@ flowchart TD
 | 🛡️ Protected Routes | Sensitive endpoints gated behind valid tokens |
 | 🔑 Password Hashing | Passwords encrypted using **bcrypt** |
 | 🌐 Secure REST APIs | Consistent request/response contracts |
-| 🧩 Authentication Middleware | Centralized token verification |
+| 🧩 Auth Middleware | Centralized token verification |
 | ✅ Input Validation | Guards against malformed/malicious input |
-| 🚫 MongoDB Injection Protection | Sanitized queries via Mongoose |
-| 🗝️ Environment Variable Configuration | Secrets kept out of source control |
-| ⏱️ Token-based Session Management | No server-side session storage required |
+| 🚫 Injection Protection | Sanitized queries via Mongoose |
+| 🗝️ Env Configuration | Secrets kept out of source control |
 
 <br/>
 
 ---
+
+<div align="center">
 
 ## ⚡ Performance Optimizations
 
-- ♻️ React component reusability
-- ⚡ Fast Refresh with Vite
-- 📡 Optimized API requests
-- 🧱 Modular folder structure
-- 🗄️ Efficient MongoDB queries
-- 🪶 Lightweight UI components
-- 📱 Responsive layout
-- 🌀 Lazy component loading *(optional future enhancement)*
+</div>
+
+<br/>
+
+<table align="center">
+<tr>
+<td width="25%" align="center">♻️<br/><b>Reusable Components</b></td>
+<td width="25%" align="center">⚡<br/><b>Vite Fast Refresh</b></td>
+<td width="25%" align="center">📡<br/><b>Optimized API Calls</b></td>
+<td width="25%" align="center">🧱<br/><b>Modular Architecture</b></td>
+</tr>
+<tr>
+<td width="25%" align="center">🗄️<br/><b>Efficient Queries</b></td>
+<td width="25%" align="center">🪶<br/><b>Lightweight UI</b></td>
+<td width="25%" align="center">📱<br/><b>Responsive Layout</b></td>
+<td width="25%" align="center">🌀<br/><b>Lazy Loading Ready</b></td>
+</tr>
+</table>
 
 <br/>
 
 ---
 
+<div align="center">
+
 ## 🎨 Design Principles
+
+</div>
+
+<br/>
 
 | Principle | Description |
 |---|---|
 | 🎯 Minimal UI | No clutter — only what the user needs, when they need it |
 | 📏 Consistent Spacing | Predictable visual rhythm across pages |
-| 🧩 Responsive Grid Layout | Adapts fluidly across breakpoints |
+| 🧩 Responsive Grid | Adapts fluidly across breakpoints |
 | ♻️ Reusable Components | Shared UI primitives across the app |
-| 🎨 Accessible Color Palette | Legible contrast for financial data |
-| 🔤 Professional Typography | Clear hierarchy for numbers & labels |
-| 💳 Modern Card Design | Digestible, elevated information blocks |
-| 🧭 Intuitive Navigation | Predictable, low-friction user flows |
-| 📊 Dashboard-first Experience | Key insights surfaced immediately on login |
+| 🎨 Accessible Palette | Legible contrast for financial data |
+| 🔤 Clear Typography | Strong hierarchy for numbers & labels |
+| 💳 Modern Cards | Digestible, elevated information blocks |
+| 📊 Dashboard-First | Key insights surfaced immediately on login |
 
 <br/>
 
 ---
 
-## 🧪 Testing Checklist
-
-- [x] User Registration
-- [x] User Login
-- [x] Protected Routes
-- [x] Loan CRUD Operations
-- [x] Borrow CRUD Operations
-- [x] Interest Calculator
-- [x] Dashboard Statistics
-- [x] Reports
-- [x] Notifications
-- [x] Responsive Design
-
-<br/>
-
----
-
-## 🖼️ Application Screens
-
-> Add real screenshots inside the `/assets` folder to replace these placeholders.
-
-| Screen | Path |
-|---|---|
-| 🏠 Home | `assets/home.png` |
-| 🔐 Login | `assets/login.png` |
-| 📝 Register | `assets/register.png` |
-| 📊 Dashboard | `assets/dashboard.png` |
-| 💸 Loan Management | `assets/loan-management.png` |
-| 💳 Borrow Management | `assets/borrow-management.png` |
-| 🧮 Calculator | `assets/calculator.png` |
-| 👨‍👩‍👧 Family | `assets/family.png` |
-| 📈 Reports | `assets/reports.png` |
-| 🔔 Notifications | `assets/notifications.png` |
-
-<br/>
-
----
+<div align="center">
 
 ## 🚀 Future Enhancements
+
+</div>
+
+<br/>
 
 | Feature | Status |
 |---|:---:|
@@ -697,17 +876,21 @@ flowchart TD
 | ☁️ Cloud File Attachments | ⏳ Planned |
 | 💱 Multi-Currency Support | ⏳ Planned |
 | 🌍 Multi-Language Support | ⏳ Planned |
-| 📊 Advanced Analytics Dashboard | ⏳ Planned |
 | 🤖 AI Payment Prediction | 🔮 Future Vision |
-| 📈 Financial Health Score | 🔮 Future Vision |
 | 🏦 Bank Account Integration | 🔮 Future Vision |
-| 📱 Native Mobile Application | 🔮 Future Vision |
+| 📱 Native Mobile App | 🔮 Future Vision |
 
 <br/>
 
 ---
 
-## 🗺️ Development Roadmap
+<div align="center">
+
+## 🗺️ Roadmap
+
+</div>
+
+<br/>
 
 ```mermaid
 flowchart TD
@@ -721,7 +904,7 @@ flowchart TD
         A7[Family Management]
     end
 
-    subgraph v2["🚀 Version 2.0 — In Progress"]
+    subgraph v2["🚧 Version 2.0 — In Progress"]
         B1[Dark Mode]
         B2[Export Reports]
         B3[Email Notifications]
@@ -729,12 +912,12 @@ flowchart TD
         B5[Mobile Improvements]
     end
 
-    subgraph v3["⭐ Version 3.0 — Vision"]
+    subgraph v3["🔮 Version 3.0 — Vision"]
         C1[AI Suggestions]
         C2[Financial Insights]
         C3[Multi Currency]
         C4[Calendar Integration]
-        C5[Mobile App]
+        C5[Native Mobile App]
     end
 
     v1 --> v2 --> v3
@@ -744,24 +927,32 @@ flowchart TD
 
 ---
 
+<div align="center">
+
 ## 🤝 Contributing
 
-Contributions are welcome and greatly appreciated! Here's how to get started:
+Contributions make the open-source community amazing. Any contribution is **greatly appreciated**.
 
-1. **Fork** this repository
-2. **Create a feature branch**
+</div>
+
+<br/>
+
+1. Fork the repository
+2. Create your feature branch
    ```bash
    git checkout -b feature/AmazingFeature
    ```
-3. **Commit your changes**
+3. Commit your changes
    ```bash
    git commit -m "Add Amazing Feature"
    ```
-4. **Push to your branch**
+4. Push to your branch
    ```bash
    git push origin feature/AmazingFeature
    ```
-5. **Open a Pull Request** at [github.com/BoobeshPalanisamy0612/LendTrack/pulls](https://github.com/BoobeshPalanisamy0612/LendTrack/pulls)
+5. Open a [Pull Request](https://github.com/BoobeshPalanisamy0612/LendTrack/pulls)
+
+<br/>
 
 <details>
 <summary><strong>📋 Coding Guidelines</strong></summary>
@@ -774,33 +965,26 @@ Contributions are welcome and greatly appreciated! Here's how to get started:
 - Test features before submitting
 - Avoid unnecessary dependencies
 - Maintain a clean folder structure
-- Use descriptive variable and function names
 
 </details>
 
 <details>
-<summary><strong>🐞 Found a Bug?</strong></summary>
+<summary><strong>🐞 Found a bug?</strong></summary>
 
 <br/>
 
 1. Search [existing issues](https://github.com/BoobeshPalanisamy0612/LendTrack/issues) first
-2. [Create a new issue](https://github.com/BoobeshPalanisamy0612/LendTrack/issues/new) with detailed steps to reproduce
-3. Include screenshots if applicable
-4. Describe expected vs. actual behavior
-5. Mention your browser and operating system
+2. [Open a new issue](https://github.com/BoobeshPalanisamy0612/LendTrack/issues/new) with clear reproduction steps
+3. Include screenshots, expected vs. actual behavior, browser & OS
 
 </details>
 
 <details>
-<summary><strong>💡 Have a Feature Request?</strong></summary>
+<summary><strong>💡 Have a feature request?</strong></summary>
 
 <br/>
 
-[Open a Feature Request issue](https://github.com/BoobeshPalanisamy0612/LendTrack/issues/new) including:
-- Problem description
-- Proposed solution
-- Expected benefits
-- Optional mockups or wireframes
+[Open a feature request](https://github.com/BoobeshPalanisamy0612/LendTrack/issues/new) describing the problem, your proposed solution, and expected benefit.
 
 </details>
 
@@ -808,85 +992,30 @@ Contributions are welcome and greatly appreciated! Here's how to get started:
 
 ---
 
-## 📜 License
-
-This project is licensed under the **MIT License**.
-
-You are free to ✅ use · ✅ modify · ✅ distribute · ✅ fork · ✅ learn from this project.
-Please retain the original license notice when redistributing.
-
-<br/>
-
----
+<div align="center">
 
 ## 👨‍💻 Author
 
-<div align="center">
+<br/>
 
-## **Boobesh Palanisamy**
+<img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQwIiBoZWlnaHQ9IjE0MCIgdmlld0JveD0iMCAwIDE0MCAxNDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPGRlZnM+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImxvZ29CZyIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiMyMjFkNGQiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMDUwNDBkIi8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJsb2dvQ29pbiIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiM0YWRlODAiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMDBkNGZmIi8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8cmVjdCB3aWR0aD0iMTQwIiBoZWlnaHQ9IjE0MCIgcng9IjMyIiBmaWxsPSJ1cmwoI2xvZ29CZykiLz4KICA8cmVjdCB4PSI0IiB5PSI0IiB3aWR0aD0iMTMyIiBoZWlnaHQ9IjEzMiIgcng9IjI4IiBmaWxsPSJub25lIiBzdHJva2U9IiNmZmZmZmYiIHN0cm9rZS1vcGFjaXR5PSIwLjA4IiBzdHJva2Utd2lkdGg9IjIiLz4KICA8Y2lyY2xlIGN4PSI3MCIgY3k9IjcwIiByPSI0MCIgZmlsbD0idXJsKCNsb2dvQ29pbikiLz4KICA8dGV4dCB4PSI3MCIgeT0iODUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjQ0IiBmb250LXdlaWdodD0iODAwIiBmaWxsPSIjMGIwYTFhIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj4kPC90ZXh0Pgo8L3N2Zz4K" width="80" style="border-radius: 50%;" alt="Boobesh Palanisamy"/>
+
+### Boobesh Palanisamy
 
 **UI/UX Designer • React Frontend Developer • MERN Stack Developer**
 
-*Building modern, responsive, and user-friendly web applications with a passion for intuitive user experiences and scalable solutions.*
+*Building modern, responsive, and user-friendly web applications with a passion for intuitive UX and scalable systems.*
 
 <br/>
 
 <p>
   <a href="https://boobeshpalanisamy0612.github.io/Portfolio/"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white" /></a>
   <a href="https://github.com/BoobeshPalanisamy0612"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" /></a>
+  <a href="#"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="#"><img alt="Email" src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 </p>
 
-</div>
-
-| Platform | Link |
-|---|---|
-| 🌍 Portfolio | https://boobeshpalanisamy0612.github.io/Portfolio/ |
-| 💼 LinkedIn | *Add your LinkedIn profile URL here* |
-| 💻 GitHub | https://github.com/BoobeshPalanisamy0612 |
-| 📧 Email | *Add your contact email here* |
-
-> 💡 **Note:** The LinkedIn and Email badges above are left unlinked on purpose — plug in your real LinkedIn URL and email address (or a `mailto:` link) once ready, and they'll work like the Portfolio/GitHub badges.
-
-<br/>
-
----
-
-## 🙏 Acknowledgements
-
-React · Vite · Node.js · Express.js · MongoDB Atlas · JWT · React Router · Axios · React Icons · Vercel · Render · GitHub · the Open Source Community
-
-<br/>
-
----
-
-## 💖 Support the Project
-
-If you found LendTrack useful:
-
-⭐ **Star** this repository&nbsp;&nbsp;·&nbsp;&nbsp;🍴 **Fork** the project&nbsp;&nbsp;·&nbsp;&nbsp;🛠️ **Contribute** new features&nbsp;&nbsp;·&nbsp;&nbsp;🐛 **Report** bugs&nbsp;&nbsp;·&nbsp;&nbsp;💬 **Share** feedback&nbsp;&nbsp;·&nbsp;&nbsp;📢 **Recommend** it to others
-
-Every contribution and star helps the project grow!
-
-<br/>
-
----
-
-## 📊 Project Highlights
-
-<div align="center">
-
-| Category | Details |
-|---|---|
-| 💻 Project Type | Full Stack MERN Application |
-| 🎯 Domain | FinTech |
-| 🛠️ Frontend | React + Vite |
-| ⚙️ Backend | Node.js + Express |
-| 🗄️ Database | MongoDB Atlas |
-| 🔐 Authentication | JWT |
-| 📱 Responsive | Yes |
-| ☁️ Deployment | Vercel + Render |
-| 🎨 UI Style | Modern Dashboard |
-| 🚀 Status | Active Development |
+<sub>💡 LinkedIn and Email link out to <code>#</code> for now — swap in your real profile URL and a <code>mailto:</code> link to activate them.</sub>
 
 </div>
 
@@ -896,16 +1025,48 @@ Every contribution and star helps the project grow!
 
 <div align="center">
 
-### ⭐ Don't forget to Star this Repository ⭐
+## 📜 License
 
-It motivates future development and helps others discover the project.
+This project is licensed under the **MIT License**.
 
-**Thanks for visiting — Happy Coding! 🚀**
+You're free to ✅ use · ✅ modify · ✅ distribute · ✅ fork · ✅ learn from this project.
+Please retain the original license notice when redistributing.
+
+</div>
 
 <br/>
 
-## 💰 LendTrack
+---
 
+<div align="center">
+
+## 💖 Support
+
+If LendTrack helped you or inspired your own project, consider supporting it:
+
+⭐ **Star** the repo &nbsp;·&nbsp; 🍴 **Fork** it &nbsp;·&nbsp; 🛠️ **Contribute** &nbsp;·&nbsp; 🐛 **Report bugs** &nbsp;·&nbsp; 📢 **Share it**
+
+</div>
+
+<br/>
+
+---
+
+<div align="center">
+
+## ⭐ Star This Repository
+
+**It genuinely helps** — every star motivates future development and helps other developers discover the project.
+
+<br/>
+
+<a href="https://github.com/BoobeshPalanisamy0612/LendTrack">
+  <img alt="Star on GitHub" src="https://img.shields.io/badge/⭐_Star_on_GitHub-4ADE80?style=for-the-badge&logoColor=white" />
+</a>
+
+<br/><br/>
+
+### 💰 LendTrack
 **Track Smarter. Lend Better. Stay Organized.**
 
 Made with ❤️ by **[Boobesh Palanisamy](https://github.com/BoobeshPalanisamy0612)**
